@@ -1,0 +1,71 @@
+/******************************HEADER*******************************/
+
+header a  {
+    color: grey;
+}
+header a:hover {
+    font-size: large;
+}
+@media (min-width:960px) {
+#menu {
+    float: right;
+    width: 60px;
+}
+
+}
+
+/******************************HERO SECTION*******************************/
+#hero-section {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    max-width: 100%;
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 22%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 20px 20px 20px 20px;
+    background-color: grey;
+    opacity: 0.8;
+    font-weight: bold;
+}
+@media (max-width:1200px)
+{
+    .top-left {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2vh;
+    }
+}
+
+
+
+
+/******************************BODY SECTION*******************************/
+
+#body-section {
+    background-color: #eae7de; 
+}
+
+
+
+/******************************CONTACT SECTION*******************************/
+#contact-section {
+    background-color: rgb(51, 48, 48);
+}
+
+
+
+/******************************FOOTER SECTION*******************************/
+footer {
+    background-color: black;
+}
